@@ -1,0 +1,110 @@
+.sec01 {
+    padding: 260px 0 100px 0;
+    .contents {
+        .title {
+            font-size: 50px;
+            line-height: 70px;
+            font-weight: 700;
+            span {
+                color: #0060f6;
+            }
+        }
+    }
+}
+
+.sec02 {
+    .contents {
+        input {
+            display: none;
+        }
+        label {
+            font-size: 30px;
+            color: #ababab;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 700;
+            display: inline-block;
+            cursor: pointer;
+            padding: 0 30px;
+        }
+        .onnews-label-01 {
+            padding: 0 30px 0 50px;
+        }
+        .more-btn {
+            display: block;
+            width: 200px;
+            height: 60px;
+            font-size: 18px;
+            text-align: center;
+            line-height: 60px;
+            background: #45bdff;
+            font-weight: 700;
+            color: #ffffff;
+        }
+        .copy01 {
+            font-size: 30px;
+            line-height: 60px;
+            font-weight: 700;
+        }
+        .copy02 {
+            font-size: 18px;
+            line-height: 34px;
+            padding: 50px 0 50px 0;
+        }
+        .imgbox {
+            font-size: 0;
+            padding: 50px 0;
+            .box01 {
+                display: inline-block;
+            }
+            .box02 {
+                display: inline-block;
+            }
+            
+        }
+        .twn-contents {
+            display: none;
+            margin: 100px 20px 150px 20px;
+            position: relative;
+            .more-btn {
+                background: #0061b3;
+            }
+            .twn-phone {
+                position: absolute;
+                bottom: -150px;
+                right: 0;
+            }
+            
+        }
+        .ctn-contents {
+            display: none;
+            margin: 100px 20px 150px 20px;
+            position: relative;
+            .more-btn {
+                background: #ca1818;
+            }
+            .ctn-phone {
+                position: absolute;
+                bottom: -150px;
+                right: 0;
+            }
+        }
+        
+    }
+}
+
+#onnews-01:checked ~ .onnews-label-01 {
+    color: #141414;
+    text-decoration: underline;
+}
+#onnews-02:checked ~ .onnews-label-02 {
+    color: #141414;
+    text-decoration: underline;
+}
+#onnews-01:checked ~ .twn-contents {
+    display: block;
+    animation: journalfade 1s forwards;
+}
+#onnews-02:checked ~ .ctn-contents {
+    display: block;
+    animation: journalfade 1s forwards;
+}

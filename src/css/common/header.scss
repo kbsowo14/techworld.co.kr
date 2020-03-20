@@ -1,0 +1,121 @@
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    .gnb {
+        width: 100%;
+        background: #ffffff;
+        border-bottom: solid 1px #ededed;
+        position: relative;
+        text-align: right;
+        .black-logo {
+            width: 215px;
+            height: 20px;
+            background: url('../../img/common/black_logo.png') no-repeat center center;
+            position: absolute;
+            top: 50px;
+            left: 80px;
+            .white-logo {
+                display: block;
+                width: 215px;
+                height: 20px;
+                background: url('../../img/common/white_logo.png') no-repeat center center;
+                transition: all 0.2s;
+            }
+            .op-logo {
+                opacity: 0;
+            }
+        }
+        .dep01 {
+            display: inline-block;
+            font-size: 0;
+            text-align: right;
+            margin: 0 80px;
+            .dep01-item {
+                display: inline-block;
+                width: 140px;
+                text-align: center;
+                position: relative;
+                a {
+                    display: block;
+                    font-size: 14px;
+                    font-family: 'Josefin Sans', sans-serif;
+                    font-weight: 700;
+                    line-height: 60px;
+                    padding-top: 40px;
+                }
+
+                .depline {
+                    display: block;
+                    width: 0;
+                    height: 1px;
+                    background: #141414;
+                    position: absolute;
+                    bottom: 1px;
+                    left: 0;
+                    transition: all 0.5s;
+                }
+                .data-num {
+                    display: inline-block;
+                    width: 18px;
+                    height: 18px;
+                    background: #ff5050;
+                    border-radius: 100%;
+                    text-align: center;
+                    line-height: 18px;
+                    color: #ffffff;
+                    position: absolute;
+                    top: 50px;
+                    right: 18px;
+                    font-size: 11px;
+                }
+            }
+            .dep01-item:hover > .depline {
+                width: 100%;
+            }
+        }
+        .dep02 {
+            font-size: 0;
+            width: 100%;
+            height: 0;
+            overflow: hidden;
+            transition: all 0.5s;
+            position: absolute;
+            top: 100%;
+            right: 0;
+            background: #ffffff;
+            box-shadow: 0 5px 10px rgba($color: #000000, $alpha: 0.2);
+            text-align: right;
+            .dep02-item {
+                width: 140px;
+                display: inline-block;
+                vertical-align: top;
+                text-align: center;
+                font-size: 0;
+                padding: 20px 0;
+                .dep02-text {
+                    font-size: 13px;
+                    font-family: 'Josefin Sans', sans-serif;
+                    a {
+                        display: block;
+                        line-height: 30px;
+                    }
+                    a:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+            .dep02-item:last-child {
+                padding-right: 80px;
+            }
+        }
+        .dep01:hover ~ .dep02 {
+            height: 220px;
+        }
+        .dep02:hover {
+            height: 220px;
+        }
+    }
+}

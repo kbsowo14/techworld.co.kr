@@ -1,0 +1,167 @@
+.sec01 {
+  padding: 260px 0 100px 0;
+}
+
+.sec01 .contents .title {
+  font-size: 50px;
+  line-height: 70px;
+  font-weight: 700;
+}
+
+.sec02 .contents {
+  width: 100%;
+  height: 500px;
+  background: url("../img/history_img01.jpg") no-repeat center center;
+  position: relative;
+}
+
+.sec02 .contents .info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.sec02 .contents .info p {
+  display: inline-block;
+  text-align: center;
+}
+
+.sec02 .contents .info p .copy {
+  color: #ffffff;
+  line-height: 20px;
+  font-size: 26px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.sec02 .contents .info p .dot {
+  display: block;
+  text-align: center;
+  position: relative;
+  padding-top: 60px;
+}
+
+.sec02 .contents .info p .dot .w-dot {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: #ffffff;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+
+.sec02 .contents .info p .dot .op-dot {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: #ffffff;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  opacity: 0.8;
+  -webkit-animation: opdot 1s infinite ease-out;
+          animation: opdot 1s infinite ease-out;
+}
+
+.sec02 .contents .info p:nth-child(2) {
+  padding: 0 200px;
+}
+
+.sec02 .contents .info .line {
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  background: #ffffff;
+  -webkit-transform: translateY(-44px);
+          transform: translateY(-44px);
+}
+
+.sec03 .contents .title {
+  padding-top: 100px;
+  position: relative;
+}
+
+.sec03 .contents .title p {
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 700;
+}
+
+.sec03 .contents .title p span {
+  color: #0060f6;
+}
+
+.sec03 .contents .title .yyyy {
+  font-size: 60px;
+  font-weight: 700;
+  color: #e9e9e9;
+  position: absolute;
+  bottom: -3px;
+  right: 0;
+}
+
+.sec03 .contents .title .line {
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  background: #e9e9e9;
+}
+
+.sec03 .contents .list {
+  font-size: 0;
+  padding-left: 20px;
+}
+
+.sec03 .contents .list li {
+  padding-top: 20px;
+}
+
+.sec03 .contents .list li .year {
+  font-size: 30px;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
+.sec03 .contents .list li .copy {
+  vertical-align: middle;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+.sec03 .contents .list li:nth-child(1) {
+  padding-top: 40px;
+}
+
+.sec03 .contents .box02 {
+  text-align: right;
+}
+
+.sec03 .contents .box02 .title .yyyy-r {
+  font-size: 60px;
+  font-weight: 700;
+  color: #e9e9e9;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+}
+
+.sec03 .contents .box02 .list {
+  padding-right: 20px;
+}
+
+.sec03 .contents .box02 .copy {
+  padding: 0 20px 0 0;
+}
+
+.sec03 .contents .box03 {
+  padding-bottom: 200px;
+}
+/*# sourceMappingURL=history.css.map */

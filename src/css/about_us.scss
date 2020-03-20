@@ -1,0 +1,107 @@
+.sec01 {
+    padding: 260px 0 100px 0;
+    .contents {
+        .title {
+            font-size: 50px;
+            line-height: 70px;
+            font-weight: 700;
+        }
+    }
+}
+.sec02 {
+    .contents {
+        .info {
+            width: 100%;
+            height: 500px;
+            background: url("../img/about_us_img01.jpg") no-repeat center center;
+            position: relative;
+            text-align: center;
+            font-size: 0;
+            .circle {
+                display: inline-block;
+                color: #ffffff;
+                text-align: center;
+                font-size: 26px;
+                font-weight: 700;
+                vertical-align: middle;
+                line-height: 200px;
+                width: 200px;
+                height: 200px;
+                border-radius: 100%;
+                border: solid 1px #ffffff;
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%);
+                
+            }
+            .circle01 {
+                transform: translate(20px, -50%);
+            }
+            .circle02 {
+                margin-right: 130px;
+            }
+            .circle03 {
+                margin-left: 130px;
+            }
+            .circle04 {
+                transform: translate(-20px, -50%);
+            }
+            .circle-center {
+                width: 300px;
+                height: 300px;
+                border-radius: 100%;
+                background: linear-gradient(#01b3f7, #005ef6);
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: 1;
+                span:nth-child(1) {
+                    padding-top: 100px;
+                }
+                span:nth-child(2) {
+                    padding-top: 20px;
+                }
+                span {
+                    font-size: 40px;
+                    display: block;
+                    text-align: center;
+                    font-weight: 700;
+                    font-family: 'Josefin Sans', sans-serif;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+.sec03 {
+    .contents {
+        position: relative;
+        p {
+            font-size: 16px;
+            line-height: 30px;
+            font-weight: 400;
+            letter-spacing: -0.5px;
+            padding-top: 100px;
+        }
+        p:nth-child(1) {
+            padding-bottom: 100px;
+        }
+        p:nth-child(4) {
+            padding-bottom: 100px;
+        }
+        img:last-child {
+            position: absolute;
+            bottom: 0;
+            right: 20px;
+        }
+        .copy-cir {
+            display: block;
+            width: 130px;
+            height: 130px;
+            border-radius: 100%;
+            background: #e5f5fe;
+        }
+        
+    }
+}

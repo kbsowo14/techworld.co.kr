@@ -1,0 +1,151 @@
+.sec01 {
+    .contents {
+        .title {
+            text-align: center;
+            padding-top: 260px;
+            font-size: 50px;
+            line-height: 70px;
+            font-weight: 700;
+        }
+        
+    }
+}
+
+.sec02 {
+    padding: 100px 0 150px 0;
+    .contents {
+        .inputbox {
+            width: 1140px;
+            height: 420px;
+            background: #ffffff;
+            margin: 0 auto;
+            border: solid 1px #e4e4e4;
+            box-shadow: 0 0 20px rgba($color: #000000, $alpha: 0.1);
+            .inputtit {
+                text-align: center;
+                p {
+                    font-size: 16px;
+                    font-weight: 300;
+                    padding: 50px 0 30px 0;
+                }
+            }
+            .inputcon {
+                width: 100%;
+                text-align: center;
+                .input-box01 {
+                    font-size: 0;
+                    
+                    input {
+                        display: none;
+                    }
+                    label {
+                        display: inline-block;
+                        box-sizing: border-box;
+                        width: 200px;
+                        height: 60px;
+                        border: solid 1px #d0d0d0;
+                        text-align: center;
+                        margin: 0 5px;
+                        cursor: pointer;
+                        .ck-icon {
+                            box-sizing: border-box;
+                            display: inline-block;
+                            width: 24px;
+                            height: 24px;
+                            border: solid 1px #d0d0d0;
+                            border-radius: 100%;
+                            vertical-align: top;
+                            transform: translateY(18px);
+                            span {
+                                display: inline-block;
+                                background: #d0d0d0;
+                                
+                            }
+                            span:nth-child(1) {
+                                width: 6px;
+                                height: 2px;
+                                transform: translate(2px, 11px) rotate(45deg);
+                            }
+                            span:nth-child(2) {
+                                width: 10px;
+                                height: 2px;
+                                transform: translate(-1px, 10px) rotate(-45deg);
+                            }
+                            
+                        }
+                        .ck-txt {
+                            font-size: 16px;
+                            color: #aaaaaa;
+                            margin-left: 20px;
+                            line-height: 58px;
+                        }
+                    }
+                    input:checked + label {
+                        border: solid 1px #005ef6;
+                    }
+                    input:checked + label > .ck-icon {
+                        border: solid 1px #005ef6;
+                    }
+                    input:checked + label > .ck-icon > span {
+                        background: #005ef6;
+                    }
+                    input:checked + label > .ck-txt {
+                        color: #005ef6;
+                    }
+                }
+            }
+            .inputlist {
+                padding-top: 20px;
+                font-size: 0;
+                text-align: center;
+                .input-item01 {
+                    display: inline-block;
+                    width: 415px;
+                    text-align: left;
+                    input {
+                        width: 95%;
+                        height: 50px;
+                        line-height: 50px;
+                        display: block;
+                        font-size: 16px;
+                        text-indent: 20px;
+                        border: none;
+                        border-bottom: solid 1px #d0d0d0;
+                        padding: 0;
+                    }
+                    input:nth-child(2) {
+                        margin: 10px 0;
+                    }
+                    input:focus {
+                        border-bottom: solid 1px #005ef6;
+                    }
+                }
+                .input-item02 {
+                    display: inline-block;
+                    width: 415px;
+                    text-align: right;
+                    vertical-align: top;
+                    textarea {
+                        width: 95%;
+                        height: 110px;
+                        border: solid 1px #d0d0d0;
+                        padding: 0;
+                        box-sizing: border-box;
+                    }
+                    button {
+                        width: 95%;
+                        height: 50px;
+                        margin-top: 13px;
+                        border: none;
+                        background: #005ef6;
+                        color: #ffffff;
+                        font-family: 'Josefin Sans', sans-serif;
+                        font-weight: 700;
+                        padding: 0;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

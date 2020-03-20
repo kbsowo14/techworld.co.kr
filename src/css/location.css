@@ -1,0 +1,42 @@
+.sec01 .contents .title {
+  text-align: center;
+  padding-top: 260px;
+  font-size: 50px;
+  line-height: 70px;
+  font-weight: 700;
+}
+
+.sec01 .contents .info-list {
+  font-size: 0;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.sec01 .contents .info-list .item {
+  display: inline-block;
+  text-align: center;
+  margin: 0 15px;
+  width: 338px;
+  height: 198px;
+  border: solid 1px #e4e4e4;
+}
+
+.sec01 .contents .info-list .item img {
+  display: block;
+  margin: 30px auto 20px auto;
+}
+
+.sec01 .contents .info-list .item span {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.sec02 {
+  padding-top: 150px;
+}
+
+.sec02 .contents .root_daum_roughmap {
+  width: 100%;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=location.css.map */

@@ -1,0 +1,36 @@
+.footer {
+  width: 100%;
+  background: #f4f4f4;
+}
+
+.footer .arti {
+  font-size: 12px;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.footer .arti .arti-box {
+  position: relative;
+}
+
+.footer .arti .arti-box p:nth-child(1) {
+  position: absolute;
+  bottom: 60px;
+  right: 0;
+  font-weight: 700;
+}
+
+.footer .arti .arti-box p:nth-child(2) {
+  font-weight: 700;
+  padding-top: 60px;
+}
+
+.footer .arti .arti-box p:nth-child(3) {
+  line-height: 18px;
+  padding: 30px 0;
+}
+
+.footer .arti .arti-box p:nth-child(4) {
+  padding-bottom: 60px;
+}
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,91 @@
+.sec01 {
+    padding: 260px 0 100px 0;
+    .contents {
+        .title {
+            font-size: 50px;
+            line-height: 70px;
+            font-weight: 700;
+        }
+    }
+}
+.sec02 {
+    .contents {
+        .info {
+            width: 100%;
+            height: 500px;
+            background: url("../img/our_team_img01.jpg") no-repeat center center;
+            text-align: center;
+            font-size: 0;
+            p {
+                font-size: 60px;
+                line-height: 500px;
+                color: #ffffff;
+                font-weight: 700;
+                font-family: 'Josefin Sans', sans-serif;
+            }
+        }
+    }
+}
+.sec03 {
+    .contents {
+        text-align: center;
+        transform: translateY(-50px);
+        padding-bottom: 150px;
+        font-size: 0;
+        ul {
+            padding: 0 50px;
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+            li {
+                text-align: center;
+                width: 200px;
+                height: 200px;
+                background: #ffffff;
+                border-radius: 100%;
+                box-shadow: 0 0 15px rgba($color: #000000, $alpha: 0.2);
+                margin: 0 auto;
+                img {
+                    display: inline-block;
+                    padding-top: 50px;
+                }
+                .item-copy {
+                    padding-top: 20px;
+                }
+            }
+            .item-tit {
+                background: #141414;
+                text-align: left;
+                width: 220px;
+                height: 220px;
+                border-radius: 100%;
+                margin-bottom: -40px;
+                .kr {
+                    color: #ffffff;
+                    padding-left: 30px;
+                    line-height: 24px;
+                    font-size: 16px;
+                    padding-top: 70px;
+                }
+                .en {
+                    padding-left: 30px;
+                    font-size: 16px;
+                    text-indent: 0;
+                    color: #39b7ff;
+                    line-height: 24px;
+                }
+                .en02 {
+                    color: #6af6ff;
+                }
+                .en03 {
+                    color: #89ffb8;
+                }
+            }
+            .item {
+                margin-bottom: -40px;
+                font-size: 16px;
+                font-weight: 700;
+            }
+        }
+    }
+}
