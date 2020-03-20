@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>:: TECHWORLD</title>
+
+    <!-- COMMON -->
+    <link rel="stylesheet" href="../src/css/common/reset.css">
+    <link rel="stylesheet" href="../src/css/common/basic.css">
+    <link rel="stylesheet" href="../src/css/common/header.css">
+    <link rel="stylesheet" href="../src/css/common/footer.css">
+    <link rel="stylesheet" href="../src/css/common/animate.css">
+    
+    <script src="../src/js/common/jquery-3.4.1.min.js"></script>
+    <script src="../src/js/common/includeHTML.js"></script>
+    <script src="../src/js/common/header.js"></script>
+
+    <link rel="stylesheet" href="../src/css/common/slick.css">
+    <script src="../src/js/common/slick.min.js"></script>
+
+    <!-- THIS -->
+    <link rel="stylesheet" href="../src/css/location.css">
+
+</head>
+<body>
+    <h1 class="hidden">TECHWORLD</h1>
+    <div id="wrapper">
+        <header include-html="../common/header.html" id="header" class="header"></header>
+
+        <div class="container">
+
+            <section class="sec sec01">
+                <div class="contents group">
+                    <p class="title">" GET IN TOUCH "</p>
+                    <ul class="info-list">
+                        <li class="item"><img src="../src/img/locaimg01.png"><span>08507 서울시 금천구<br />가산디지털1로 168, 1012호<br />(가산동, 우림라이온스밸리C동)</span></li>
+                        <li class="item"><img src="../src/img/locaimg02.png"><span>TEL. 02-2026-5700<br />FAX. 02-2026-5701<br />info@techworld.co.kr</span></li>
+                        <li class="item"><img src="../src/img/locaimg03.png"><span>TEL. 02-2026-5689<br />FAX. 02-2026-5701<br />webmaster@techworld.co.kr</span></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="sec sec02">
+                <div class="contents">
+                    <div id="daumRoughmapContainer1584593720584" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+                    <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+                    <script charset="UTF-8">
+                        new daum.roughmap.Lander({
+                            "timestamp" : "1584593720584",
+                            "key" : "xk4n",
+                            "mapHeight" : "400",
+                            "setZoomable" : false
+                        }).render();
+                    </script>
+                </div>
+            </section>
+            
+ 
+        </div>
+
+        <footer include-html="../common/footer.html" id="footer" class="footer"></footer>
+    </div>
+    <script>includeHTML();</script>
+</body>
+</html>

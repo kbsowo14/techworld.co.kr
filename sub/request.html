@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>:: TECHWORLD</title>
+
+    <!-- COMMON -->
+    <link rel="stylesheet" href="../src/css/common/reset.css">
+    <link rel="stylesheet" href="../src/css/common/basic.css">
+    <link rel="stylesheet" href="../src/css/common/header.css">
+    <link rel="stylesheet" href="../src/css/common/footer.css">
+    <link rel="stylesheet" href="../src/css/common/animate.css">
+    
+    <script src="../src/js/common/jquery-3.4.1.min.js"></script>
+    <script src="../src/js/common/includeHTML.js"></script>
+    <script src="../src/js/common/header.js"></script>
+
+    <link rel="stylesheet" href="../src/css/common/slick.css">
+    <script src="../src/js/common/slick.min.js"></script>
+
+    <!-- THIS -->
+    <link rel="stylesheet" href="../src/css/request.css">
+
+</head>
+<body>
+    <h1 class="hidden">TECHWORLD</h1>
+    <div id="wrapper">
+        <header include-html="../common/header.html" id="header" class="header"></header>
+
+        <div class="container">
+
+            <section class="sec sec01">
+                <div class="contents group">
+                    <p class="title">" I WILL PROVIDE SMART MEDIA "</p>
+                </div>
+            </section>
+            <section class="sec sec02">
+                <div class="contents">
+                    <div class="inputbox">
+                        <div class="inputtit">
+                            <p>카테고리를 선택해주세요.</p>
+                        </div>
+                        <div class="inputcon">
+                            <div class="input-box01">
+                                <input type="checkbox" id="ck01">
+                                <label for="ck01">
+                                    <span class="ck-icon">
+                                        <span></span>
+                                        <span></span>
+                                    </span>
+                                    <span class="ck-txt">광고 문의</span>
+                                </label>
+                                <input type="checkbox" id="ck02">
+                                <label for="ck02">
+                                    <span class="ck-icon">
+                                        <span></span>
+                                        <span></span>
+                                    </span>
+                                    <span class="ck-txt">잡지 구독</span>
+                                </label>
+                                <input type="checkbox" id="ck03">
+                                <label for="ck03">
+                                    <span class="ck-icon">
+                                        <span></span>
+                                        <span></span>
+                                    </span>
+                                    <span class="ck-txt">뉴스레터 신청</span>
+                                </label>
+                                <input type="checkbox" id="ck04">
+                                <label for="ck04">
+                                    <span class="ck-icon">
+                                        <span></span>
+                                        <span></span>
+                                    </span>
+                                    <span class="ck-txt">기사 제보</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="inputlist">
+                            <div class="input-item01">
+                                <input type="text" id="name" placeholder="Name">
+                                <input type="text" id="email" placeholder="E-mail">
+                                <input type="text" id="tel" placeholder="Tel">
+                            </div>
+                            <div class="input-item02">
+                                <textarea></textarea>
+                                <button>SUBMIT</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+ 
+        </div>
+
+        <footer include-html="../common/footer.html" id="footer" class="footer"></footer>
+    </div>
+    <script>includeHTML();</script>
+</body>
+</html>
